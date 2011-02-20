@@ -4,9 +4,9 @@ require 'rake'
 require 'echoe'
 require 'env'
 
-Echoe.new('change_logger', '0.0.3') do |p|
-  p.description = "A gem for tracking what changes and who did it"
-  p.url = "http://github.com/danengle/awesome_tables"
+Echoe.new('event_logger', '0.0.1') do |p|
+  p.description = "A gem for tracking events"
+  p.url = "http://github.com/danengle/event_logger"
   p.author = "Dan Engle"
   p.email = "engle.68 @nospam@ gmail.com"
   p.ignore_pattern = ["tmp/*", "script/*"]
